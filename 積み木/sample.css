@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+.contents{
+    width: 1220px;
+    margin: 0px auto;
+}
+header{
+    height: 175px;
+}
+header h1{
+    display: flex;
+    position: relative;
+    margin: 0px;
+}
+h1 #logo{
+    width: 480px;
+    position: absolute;
+    z-index: 999;
+    margin-top: 35px;
+}
+h1 #main-p{
+    position: absolute;
+    width: 725px;
+    right: -30px;
+}
+.wrapper{
+    display: flex;
+}
+ul{
+    width: 225px;
+}
+li{
+    font-size: 12px;
+    list-style: none;
+}
+li#list-title{
+    margin-left: 0px;
+}
+/*  商品紹介　*/
+.item{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+}
+#tsumiki{
+    width: 300px;
+}
